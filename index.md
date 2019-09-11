@@ -1,37 +1,4 @@
-## Welcome to GitHub Pages
+_New Source of Geospatial Data: Crowdsensing by Assisted and Autonomous Vehicle Technologies_ by C. K. Toth highlights the future role of crowdsensing, the popular usage of imaging and location technology, through an analysis of current technology and its applications.  The article focuses on the two main facets of crowdsensing, imaging and location tracking. Specifically, it examines the relationship between these two functions and automated vehicles, which require high accuracy sensing and location services for maximum safety and function. In developed nations, location tracking is omnipresent owing to the proliferation of smart devices and their automatic GPS services.  However, imaging requires more complex systems to adequately provide a functional picture of its area.  To this extent, the article focuses on the work done at Ohio State University with different levels of sensing and imaging, from a cheap GoPro to high quality LiDaR sensing to compile images accurate within centimeters of reality.  The future of crowdsensing relies on the development of a similar system that can be used by the public in order to decrease the need for humans in driving. 
+The article presents a cautiously optimistic attitude toward the future of autonomous vehicle and sensing technology.  These systems will prove helpful if they disseminate outside of the community currently focused on their growth, making open source technology essential to the mapping and visualization of the world.  As imaging technology becomes cheaper and more widely available to society, crowdsensing will provide better maps and images for automated vehicles.  As society shifts away from traditional transport to safer, automated vehicles, these images are essential to ensuring the best possible outcomes for self-driving vehicles, which rely not just on live sensors but also a knowledge of their area.  Open source technology will play an essential role in accomplishing these goals provided the technology diffuses into ordinary life.
 
-You can use the [editor on GitHub](https://github.com/pdickson2/pdickson2.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pdickson2/pdickson2.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[New Source of Geospatial Data: Crowdsensing by Assisted and Autonomous Vehicle Technologies](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLII-4-W8/211/2018/isprs-archives-XLII-4-W8-211-2018.pdf)

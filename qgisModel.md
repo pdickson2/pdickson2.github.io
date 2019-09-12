@@ -2,6 +2,6 @@
 
 In the first lab, we created a model to calculate the distance and direction from a point.
 
-[Direction and Distance Model](distance and direction from point.model3)
+[Direction and Distance Model](disdirfrompoint.model3)
 
 [Back to Main Page](https://pdickson2.github.io/)

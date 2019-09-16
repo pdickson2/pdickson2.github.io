@@ -1,4 +1,4 @@
-##Open Source GIS GitHub
+#Open Source GIS GitHub
 
 Assignment 1: FOSS4G Review
 [Toth Review](TothReview)

@@ -19,7 +19,7 @@ The images below represent the four studied factors by census tract in Milwaukee
 
 ![Median Gross Rent](medianGrossRent.png)
 
-From there, we created plots of median gross income and hispanic populations as a function of distance and direction.  See below plots of these measures in Milwaukee.  
+From there, we created plots of median gross income and hispanic populations as a function of distance and direction.  See below plots of the relationship between these measures in Milwaukee.  
 
 The first plot relates distance from the city center and median gross rent in Milwaukee by census tract.
 [Scatterplot of Distance and Rent](distanceplotnew.html)

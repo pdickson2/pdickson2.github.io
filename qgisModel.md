@@ -27,7 +27,8 @@ The first plot relates distance from the city center and median gross rent in Mi
 The second plot relates direction from the city center and hispanic/latinx population in Milwaukee by census tract.
 [Polar Plot Direction and Hispanic Ethnicity](directionplotnew.html)
 
-This exercise draws up the question of GIS and its divergent perceptions as a tool and a science.  While GIS seems to be a tool for reaching final conclusions, the function of models and quantitative results necessitate the discussion of GIS as a science.  Largely, this debate stems from the variety of definitions of 'science' itself and calls into question the immense value society places on the sciences (Wright, Goodchild, & Proctor, 1997).  
+This exercise draws up the question of GIS and its divergent perceptions as a tool and a science.  While GIS seems to be a tool for reaching final conclusions, the function of models and quantitative results necessitate the discussion of GIS as a science.  Largely, this debate stems from the variety of definitions of 'science' itself and calls into question the immense value society places on the sciences (Wright, Goodchild, & Proctor, 1997).  The question comes down to whether one believes the goal of science is strictly defined as proving truths or more widely serves as a function for testing theories and analyzing data, or if it lies somewhere in between.  
 
+Overall, open-source technology stands contrary to many of the traditional views of GIS technologies.  These include the idea that GIS is "progressing along a linear path" and "universally applicable" under a capitalist lens (St. Martin and Wing, 2007).  These traditional views of GIS are often counteracted the development of open-source technologies, highlighting their importance as reliance on technology grows.  While GIS has been perceived as a universal tool of   
 
 [Back to Main Page](https://pdickson2.github.io/)

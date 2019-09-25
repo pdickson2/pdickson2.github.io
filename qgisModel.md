@@ -8,6 +8,6 @@ From there, we created plots of median gross income and hispanic populations as 
 
 [Scatterplot of Distance and Rent](DistancePlot.html)
 
-[Polar Plot Direction and Hispanic Ethnicity](directionhispplot.html)
+[Polar Plot Direction and Hispanic Ethnicity](directionplotnew.html)
 
 [Back to Main Page](https://pdickson2.github.io/)

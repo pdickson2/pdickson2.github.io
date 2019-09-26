@@ -25,4 +25,4 @@ Finally, we visualized the channel network of water flow in the area around Kili
 ![ChannelDirection](ChannelDirection7.png) ![Legend6](ChannelDirection7_legend.png)
 
 
-This image is the ultimate visualization of the flow of streams and rivers as would be estimated by elevation data from Mt Kilimanjaro.
+The ultimate image is the ultimate visualization of the flow of streams and rivers as would be estimated by elevation data from Mt Kilimanjaro.

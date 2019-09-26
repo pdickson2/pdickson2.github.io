@@ -20,9 +20,9 @@ Then, we calculated flow accumulation to determine the quantity of flow given a 
 
 ![FlowAccumulation](FlowAccumulation5.png) ![Legend5](FlowAccumulation5_legend.png)
 
-Finally, we visualized the channel network of water flow in the area around Kilimanjaro.
+Finally, we visualized the channel network of water flow in the area around Kilimanjaro on top of the shaded elevation.
 
-![ChannelDirection](ChannelDirection7.png) ![Legend6](ChannelDirection7_legend.png)
+![ChannelDirection](hillshadingchannel.png) ![Legend6](hillshadingchannel_legend.png)
 
 
 The ultimate image is the ultimate visualization of the flow of streams and rivers as would be estimated by elevation data from Mt Kilimanjaro.

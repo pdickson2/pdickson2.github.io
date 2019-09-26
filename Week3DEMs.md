@@ -1,4 +1,4 @@
-Our third week focused on digital elevation models of Mt. Kilimanjaro in SAGA.  This began with aster data courtesy of [Nasa Earthdata](https://earthdata.nasa.gov/) for elevation and created a model of streamflow from this elevation data.
+Our third week focused on digital elevation models of Mt. Kilimanjaro in SAGA.  This began with aster data courtesy of [NASA Earthdata](https://earthdata.nasa.gov/) for elevation and created a model of streamflow from this elevation data.
 
 The lab began with integrating the two sections of the map which visualized Mt. Kilimanjaro to the scale.
 

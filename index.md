@@ -8,6 +8,6 @@ Weeks 1-2: QGIS Model for Distance and Direction
 
 [First QGIS Model](qgisModel.md)
 
-Week 3: Saga Digital Elevation Model
+Week 3-4: Saga Digital Elevation Model and Uncertainty Analysis
 
 [Digital Elevation Models: Kilimanjaro](Week3DEMs.md)

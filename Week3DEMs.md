@@ -33,3 +33,5 @@ In our fourth week, we updated this process to automate the production of channe
 
 The image below illustrates discrepancies in the recorded elevations of the Aster and SRTM data, owing to their different methods of collection.  
 
+![ElevationDifference](elevdif.jpg)  ![Legend7](elevdif_legend.png)
+

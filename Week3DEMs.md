@@ -41,6 +41,12 @@ Below are three-dimensional models of the elevations with their channel networks
 
 ![3dsrtm](3dsrtm.PNG)
 
+Finally, below is an image of the difference between the flow accumulations of the Aster and SRTM data, where data leaning toward Aster is ... and data leaning toward SRTM is ......
+
+
+
+The above image demonstrates the 
+
 Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC
 
 NASA JPL. NASA Shuttle Radar Topography Mission Global 1 arc second. 2013, distributed by NASA EOSDIS Land Processes DAAC

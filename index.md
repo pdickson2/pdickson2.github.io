@@ -14,4 +14,4 @@ Week 3-4: Saga Digital Elevation Model and Uncertainty Analysis
 
 Week 5-6: SQL and Database Processing
 
-[Dar es Salaam SQL]
+[Dar es Salaam SQL](darsql.md)

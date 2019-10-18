@@ -41,11 +41,15 @@ Below are three-dimensional models of the elevations with their channel networks
 
 ![3Dsrtm](3dsrtm.PNG)
 
-Finally, below is an image of the difference between the flow accumulations of the Aster and SRTM data, where data leaning toward Aster is ... and data leaning toward SRTM is ......
+Finally, below is an image of the difference between the flow accumulations of the Aster and SRTM data, where data leaning toward Aster is blue and data leaning toward SRTM is red.
 
 ![flowdif](flowdif.png)   ![fdlegend](flowdif_legend.png)
 
-The above image demonstrates the 
+However, owing to the small size of these data, here is a zoomed in image near the summit of Kilimanjaro.
+
+![zoomedkili](zoomin.PNG)
+
+The above image demonstrates the relative trend of the error towards the side of SRTM, as blue occurs more than 
 
 Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC
 

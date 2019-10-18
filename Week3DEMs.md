@@ -49,7 +49,7 @@ However, owing to the small size of these data, here is a zoomed in image near t
 
 ![zoomedkili](zoomin.PNG)
 
-The above image demonstrates the relative trend of the error towards the side of SRTM, as red seemingly occurs with more frequency than 
+The above image demonstrates the relative trend of the error towards the side of SRTM, as red seemingly occurs with more frequency than blue, suggesting that the errors would trend more toward SRTM.  Therefore, I would suggest that Aster is the more reliable source of data, as there were fewer erros visualized.  However, I would caution that this would not necessarily remain true across all data sets, depending on their succeptibility to cloud cover.   
 
 Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC
 

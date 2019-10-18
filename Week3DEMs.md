@@ -35,6 +35,11 @@ The image below illustrates discrepancies in the recorded elevations of the Aste
 
 ![ElevationDifference](elevdif.jpg)  ![Legend7](elevdif_legend.png)
 
+Below are three-dimensional models of the elevations with their channel networks visualized.  The first is for Aster and the second for SRTM.
+
+
+
+![3dsrtm](3dsrtm.PNG)
 
 Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC
 

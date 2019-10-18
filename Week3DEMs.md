@@ -43,7 +43,7 @@ Below are three-dimensional models of the elevations with their channel networks
 
 Finally, below is an image of the difference between the flow accumulations of the Aster and SRTM data, where data leaning toward Aster is ... and data leaning toward SRTM is ......
 
-
+![flowdif](flowdif.png)   ![fdlegend](flowdif_legend.png)
 
 The above image demonstrates the 
 

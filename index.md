@@ -11,3 +11,7 @@ Weeks 1-2: QGIS Model for Distance and Direction
 Week 3-4: Saga Digital Elevation Model and Uncertainty Analysis
 
 [Digital Elevation Models: Kilimanjaro](Week3DEMs.md)
+
+Week 5-6: SQL and Database Processing
+
+[Dar es Salaam SQL]

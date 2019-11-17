@@ -15,3 +15,7 @@ Week 3-4: Saga Digital Elevation Model and Uncertainty Analysis
 Week 5-6: SQL and Database Processing
 
 [Dar es Salaam SQL](darsql.md)
+
+Week 9-10: Twitter Data and Spatial Analysis
+
+[Twitter Review and Work](twitter.md)

@@ -11,13 +11,13 @@ This model was used to analyze the relationship between distance and direction f
 
 The images below represent the four studied factors by census tract in Milwaukee.  Visually, one can see that the median gross rent increases slightly as distance from the city center varies, with the highest rents often occurring north of the city center and along Lake Michigan, as further represented below. Also, there exists a high concentration of Latinx populations just south of the city center relative to the majority of the city.   
 
-![Distance from City Center](DistanceCBD.png)
+![Distance from City Center](Distance.png)
 
-![Direction from City Center](DirectionCityCenter.png)
+![Direction from City Center](Direction.png)
 
 ![Hispanic Population](latpop.PNG)
 
-![Median Gross Rent](medianGrossRent.png)
+![Median Gross Rent](rent.png)
 
 From this data, we created plots of median gross income and hispanic populations as a function of distance and direction.  See below plots of the relationship between these measures in Milwaukee.  
 

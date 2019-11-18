@@ -1,4 +1,4 @@
-###Review of Incorporating twitter-based human activity information in spatial analysis of crashes in urban areas by Bao, Liu, Yu, and Xu. 
+## Review of Incorporating twitter-based human activity information in spatial analysis of crashes in urban areas by Bao, Liu, Yu, and Xu. 
 
 In anticipation of utilizing twitter data spatially, we looked at the available academic literature on the subject.  I looked at a piece written about the correlations between tweet content and locations and traffic patterns, specifically of crashes.  The article can be found [here](https://doi.org/10.1016/j.aap.2017.06.012) for context.
 

@@ -2,7 +2,7 @@
 
 My first model created calculates the distance and direction from different areas to a point, the city center. It requires the creation or inclusion of a city center, which can be selected from the broader area and outputs distance and direction relative to this city center.
 
-[Direction and Distance Model](distdirmodelnov.model3)
+[Direction and Distance Model](distdirmodelnov2.model3)
 
 Visualization of the Model
 ![Distance Direction Model](model.PNG)
@@ -11,7 +11,7 @@ This model was used to analyze the relationship between distance and direction f
 
 The images below represent the four studied factors by census tract in Milwaukee.  Visually, one can see that the median gross rent increases slightly as distance from the city center varies, with the highest rents often occurring north of the city center and along Lake Michigan, as further represented below. Also, there exists a high concentration of Latinx populations just south of the city center relative to the majority of the city.   
 
-![Distance from City Center](mildist.PNG)
+![Distance from City Center](mildist2.PNG)
 
 ![Direction from City Center](direction.PNG)
 

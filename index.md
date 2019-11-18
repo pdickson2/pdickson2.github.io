@@ -2,7 +2,7 @@
 
 Assignment 1: FOSS4G Review
 
-[Toth Review](TothReview)
+[Toth Review](TothReview.md)
 
 Weeks 1-2: QGIS Model for Distance and Direction
 

@@ -15,7 +15,7 @@ The images below represent the four studied factors by census tract in Milwaukee
 
 ![Direction from City Center](DirectionCityCenter.png)
 
-![Hispanic Population](HispanicPopulationMilwaukee.png)
+![Hispanic Population](latpop.PNG)
 
 ![Median Gross Rent](medianGrossRent.png)
 

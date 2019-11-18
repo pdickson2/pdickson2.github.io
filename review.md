@@ -1,3 +1,5 @@
+##Review of Incorporating twitter-based human activity information in spatial analysis of crashes in urban areas by Bao, Liu, Yu, and Xu. 
+
 In anticipation of utilizing twitter data spatially, we looked at the available academic literature on the subject.  I looked at a piece written about the correlations between tweet content and locations and traffic patterns, specifically of crashes.  The article can be found [here](https://doi.org/10.1016/j.aap.2017.06.012) for context.
 
 The work looked specifically at the relationship between check-ins on twitter and crash patterns around Los Angeles, focusing on the type of check-in made and how its spatial data could be looked at relative to the spatial patterns of traffic around it.  Their methodology seemed to follow  inductive thinking, as they set out to see basically if their research would be possible, and what would come of it, rather than beginning with an established hypothesis or body of research as their starting point.  

@@ -1,5 +1,7 @@
 ## Open Source GIS GitHub
 
+A compilation of my work in GEOG 323: Open Source GIS at Middlebury College.
+
 Assignment 1: FOSS4G Review
 
 [Toth Review](TothReview.md)

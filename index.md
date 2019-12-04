@@ -18,6 +18,10 @@ Week 5-6: SQL and Database Processing
 
 [Dar es Salaam SQL](darsql.md)
 
+Week 7-8: Malawi Replicability and Reproducibility
+
+[Malawi Lab](malawi.md)
+
 Week 9-10: Twitter Data and Spatial Analysis
 
 [Twitter Review and Work](twitter.md)

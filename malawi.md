@@ -1,0 +1,1 @@
+In the seventh and eighth weeks of class, we examined replicability and reproducibility in scientific publications by looking at work by Malcomb et at and their work on assessing vulnerability in Malawi.

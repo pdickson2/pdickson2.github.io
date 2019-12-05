@@ -1,4 +1,4 @@
-## Twitter Labs
+## Twitter Work
 
 In weeks 9 and 10 of class, we worked with data taken from twitter and explored the use of spatial componenets of twtitter data.
 

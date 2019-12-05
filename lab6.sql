@@ -5,6 +5,10 @@ SELECT way, building, osm_id
 FROM planet_osm_polygon
 WHERE building IS NOT null
 
+--Update the buildings to be points to increase efficiency of processing time
+UPDATE builds 
+set way = st_centroid(way)
+
 --Start by creating a new column in the building table to indicate if the building lies within the floodplain
 ALTER TABLE builds ADD COLUMN flooded Boolean
 
@@ -14,13 +18,8 @@ SET flooded = TRUE
 FROM water
 WHERE st_intersects(way, (select geom FROM water))
 
---Update the buildings to be points to increase efficiency of processing time
-UPDATE builds 
-set way = st_centroid(way)
-
 --Intersect the buildings with the subwards by creating a new column in the building table and then updating it accordingly with an intersection with the subwards
-ALTER TABLE builds ADD COLUMN subward integer
-
+ALTER TABLE builds ADD COLUMN subward integer;
 UPDATE builds
 SET subward = fid 
 FROM subwards
@@ -28,8 +27,8 @@ WHERE st_intersects(builds.way, (subwards.geom))
 
 --Calculate percentage of flooded buildings by subward
 
---Here, we created counts of the flooded buildings and total buildings within each subward
-Create table  joinsw as
+--Here, we created counts of the flooded buildings and total buildings within each subward by creating a new table which took the geometry of each initial subward and added a count of the buildings where flooding was likely to occur
+Create table joinsw as
 SELECT 
 builds.subward as sw,
 sum(builds.flood) as floods,

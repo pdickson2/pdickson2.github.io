@@ -1,3 +1,5 @@
+## SQL in Dar es Salaam
+
 In weeks 5 and 6 we transitioned back to QGIS and utilized its Database Manager and POSTGIS functions to analyze openstreetmap data and data collected through the Rumani Huria Project in Dar es Salaam, as acessed through [resilience academy]( https://geonode.resilienceacademy.ac.tz/geoserver/ows).  For my analysis, my partner and I chose to explore what percentage of buildings in each subward of Dar es Salaam were especially vulnerable to flooding based on their location relative to water sources.
 
 In order to access these data in QGIS, the OpenStreetMap database was downloaded from the website and stored as an .osm file. Then, it was run through the [batch script](convertOSM.bat) with notepad++ which extracted the relevant data and extracted it to the PostGIS database.  We utilized the buildings from OSM in order to create a base layer by subward for flooding.  The data from Resilience Academy was loaded in the WFS feature section of QGIS, we used the water and subward layers from their website. From the WFS feature in QGIS, the layers can be added to the PostGIS database within QGIS.

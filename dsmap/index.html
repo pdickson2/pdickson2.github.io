@@ -49,26 +49,23 @@
         layer_OSMStandard_0;
         map.addLayer(layer_OSMStandard_0);
         function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {
-            var popupContent = '<table>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? Autolinker.link(String(feature.properties['fid'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['subward'] !== null ? Autolinker.link(String(feature.properties['subward'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['floods'] !== null ? Autolinker.link(String(feature.properties['floods'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['buildcnt'] !== null ? Autolinker.link(String(feature.properties['buildcnt'])) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['pctflood'] !== null ? Autolinker.link(String(feature.properties['pctflood'])) : '') + '</td>\
-                    </tr>\
-                </table>';
-            layer.bindPopup(popupContent, {maxHeight: 400});
-        }
-
+        var popupContent = '<table>\
+  
+   <tr>\
+     <td colspan="2">' + (feature.properties['subward'] !== null ? Autolinker.link(String(feature.properties['subward'])) : '') + '</td>\
+   </tr>\
+   <tr>\
+     <td colspan="2">' + (feature.properties['floods'] !== null ? Autolinker.link(String(feature.properties['floods'])) : '') + '</td>\
+   </tr>\
+   <tr>\
+     <td colspan="2">' + (feature.properties['buildcnt'] !== null ? Autolinker.link(String(feature.properties['buildcnt'])) : '') + '</td>\
+   </tr>\
+   <tr>\
+     <td colspan="2">' + 'Percent of buildings flooded: ' + (feature.properties['pctflood'] !== null ? Autolinker.link(String(feature.properties['pctflood'])) : '') + '</td>\
+   </tr>\
+   </table>';
+layer.bindPopup(popupContent, {maxHeight: 400});
+}
         function style_SubwardsbyPercentBuildingsFlooded_1_0(feature) {
             if (feature.properties['pctflood'] >= 0.000000 && feature.properties['pctflood'] <= 0.000000 ) {
                 return {

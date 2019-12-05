@@ -1,8 +1,10 @@
-In the seventh and eighth weeks of class, we examined replicability and reproducibility in scientific publications by looking at work by Malcomb, Weaver, and Krakowka and their work on assessing vulnerability in Malawi.  The article can be found [here](https://reader.elsevier.com/reader/sd/pii/S0143622814000058?token=078A0ACAE18D01995A67473D93E5DC36A07C5779021CF903B8334CF1D7C8EAD9277467C394E80035D5AD73BF0FD401F0) if further context is desired. Our sources for this data were DHS s 
+In the seventh and eighth weeks of class, we examined replicability and reproducibility in scientific publications by looking at work by Malcomb, Weaver, and Krakowka and their work on assessing vulnerability in Malawi.  The article can be found [here](https://reader.elsevier.com/reader/sd/pii/S0143622814000058?token=078A0ACAE18D01995A67473D93E5DC36A07C5779021CF903B8334CF1D7C8EAD9277467C394E80035D5AD73BF0FD401F0) if further context is desired. 
 
+The paper attempts to map social vulnerability across different scales in Malawi as a future framework for visualizing and analyzing vulnerability on a larger scale. We attempted, to the best of our abilities, to reproduce the results produced from this study.  The authors provided a breakdown of how they assessed vulnerability, by separating it into a few distinct categories, with individual factors given specific values in each of these categories, as seen below.  Our sources for this data were DHS survey data, which filled in the adaptive capacity scores and physical exposure data from UNEP Global Risk Map.  However, this only accounts for 80% of the data collected for this analysis as the livelihood sensitivity data was unavailable to us.  In addition to the inability to collect all of the adequate data to conduct a similar analysis, this article also didn't specify the specific data taken from the surveys and risk map to calculate vulnerability.  
 
-The paper attempts to map social vulnerability across different scales in Malawi as a future framework for visualizing and analyzing vulnerability on a larger scale.  We specifically tried to recreate the three maps produced by Malcomb et al, which are pictured below, in an attempt to examine the replicability and reproducibility of research in modern academia.  
+![weighting](measures.PNG)
 
+An additional issue with attempting to create the maps below is that Malcomb et at state that they divided the adaptive capacity scores into quintiles for their analysis, but fail to describe how they handled data with null features, if they were factored in or simply discarded, in addition to lacking an explanation of how binary figures were separated.  However, the maps which we attempted to recreate are below.
 
 ![map1](malawi3.PNG)
 
@@ -10,6 +12,10 @@ The paper attempts to map social vulnerability across different scales in Malawi
 
 ![map3](malawi1.PNG)
 
-Given these three maps, we attempted, to the best of our abilities, to reproduce the results produced from this study.  The authors provided a breakdown of how they assessed vulnerability, by separating it into a few distinct categories, with individual factors given specific values in each of these categories, as seen below.
+Pictured below are the maps which we created with the data available to us as a class.   We altered a model, also linked below, to create these maps from the provided geometries and rasterized the variables we were able to analyze.   
+ 
 
-![weighting](measures.PNG)
+
+
+
+

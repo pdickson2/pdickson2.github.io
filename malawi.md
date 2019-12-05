@@ -4,12 +4,12 @@ In the seventh and eighth weeks of class, we examined replicability and reproduc
 The paper attempts to map social vulnerability across different scales in Malawi as a future framework for visualizing and analyzing vulnerability on a larger scale.  We specifically tried to recreate the three maps produced by Malcomb et al, which are pictured below, in an attempt to examine the replicability and reproducibility of research in modern academia.  
 
 
-![map1](malawi3.png)
+![map1](malawi3.PNG)
 
-![map2](malawi2.png)
+![map2](malawi2.PNG)
 
-![map3](malawi1.png)
+![map3](malawi1.PNG)
 
 Given these three maps, we attempted, to the best of our abilities, to reproduce the results produced from this study.  The authors provided a breakdown of how they assessed vulnerability, by separating it into a few distinct categories, with individual factors given specific values in each of these categories, as seen below.
 
-![weighting](measures.png)
+![weighting](measures.PNG)

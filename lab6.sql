@@ -1,3 +1,4 @@
+--Created by Paige Dickson and Casey Lilley as part of Geog 323: Open Source GIS at Middlebury College
 --Select buildings from initial osm polygons to create a separate, buildings only analysis
 CREATE TABLE builds as
 SELECT way, building, osm_id

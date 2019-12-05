@@ -11,3 +11,5 @@ The paper attempts to map social vulnerability across different scales in Malawi
 ![map3](malawi1.png)
 
 Given these three maps, we attempted, to the best of our abilities, to reproduce the results produced from this study.  The authors provided a breakdown of how they assessed vulnerability, by separating it into a few distinct categories, with individual factors given specific values in each of these categories, as seen below.
+
+![weighting](measures.png)

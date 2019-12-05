@@ -20,7 +20,9 @@ ADD MAPS, MODEL PICTURE, AND MODEL
 Cumulatively, this effort focused a lot on reproducibility and replicability in open source geography.  Generally defined in geography as the ability to recreate the same results with the same data and the ability to recreate similar results with similar data and methodology respectively, these two issues are especially prevalent in this particular exercise.  
  
 
+Software Used: QGIS 3.8.1 with Grass, PostGIS
 
+Additional Data Sources: FEWSnet
 
-
+[Return to Home Page](pdickson2.github.io)
 

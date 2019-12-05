@@ -51,16 +51,16 @@
         function pop_SubwardsbyPercentBuildingsFlooded_1(feature, layer) {
  var popupContent = '<table>\
    <tr>\
-     <td colspan="2">' + 'Subward ID' + (feature.properties['fid'] !== null ? Autolinker.link(String(feature.properties['fid'])) : '') + '</td>\
+     <td colspan="2">' + 'Subward ID ' + (feature.properties['fid'] !== null ? Autolinker.link(String(feature.properties['fid'])) : '') + '</td>\
    </tr>\
    <tr>\
-     <td colspan="2">' + 'Flooded Buildings' + (feature.properties['floods'] !== null ? Autolinker.link(String(feature.properties['floods'])) : '') + '</td>\
+     <td colspan="2">' + 'Flooded Buildings ' + (feature.properties['floods'] !== null ? Autolinker.link(String(feature.properties['floods'])) : '') + '</td>\
    </tr>\
    <tr>\
-     <td colspan="2">' + 'Total Buildings' + (feature.properties['buildcnt'] !== null ? Autolinker.link(String(feature.properties['buildcnt'])) : '') + '</td>\
+     <td colspan="2">' + 'Total Buildings ' + (feature.properties['buildcnt'] !== null ? Autolinker.link(String(feature.properties['buildcnt'])) : '') + '</td>\
    </tr>\
    <tr>\
-     <td colspan="2">' + 'Percent Buildings Flooded' + (feature.properties['pctflood'] !== null ? Autolinker.link(String(feature.properties['pctflood'])) : '') + '</td>\
+     <td colspan="2">' + 'Percent Buildings Flooded ' + (feature.properties['pctflood'] !== null ? Autolinker.link(String(feature.properties['pctflood'])) : '') + '</td>\
    </tr>\
    </table>';
 layer.bindPopup(popupContent, {maxHeight: 400});

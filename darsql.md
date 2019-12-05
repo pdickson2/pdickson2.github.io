@@ -21,7 +21,7 @@ Here is a basic overview of the steps conducted with the SQL code:
   
 [SQL Dar es Salaam](lab6.sql)
 
-The following is the visualization of our final map, produced through leaflet in QGIS, in which the water and subwards can be visualized together and separately.
+The following is the visualization of our final map, produced through leaflet in QGIS, in which the water and subwards can be visualized together and separately.  From this map, it can be seen that there are certain subwards which are much more vulnerable to flooding than others.  
 
 [Leaflet Map of Flooding Density in Dar es Salaam](dsmap/index.html)
 

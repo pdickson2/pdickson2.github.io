@@ -4,8 +4,16 @@ In order to access these data in QGIS, the OpenStreetMap database was downloaded
 
 Below, find the SQL that was utilized for this lab, in which we found the percentage of buildings by subward that would likely be affected by flooding in Dar es Salaam.  The basic idea behind this was to identify the subwards that were most at risk if flooding to occur in Dar es Salaam, based solely on preexisting water.  The water was taken from the natural layer of Resilience Academy, where natural was either water or wetland.
 
+Here is a basic overview of the steps conducted with the SQL code:
+  1. Select buildings and water layers
+  2. Convert buildings to points 
+  
+
 [SQL Dar es Salaam](lab6.sql)
 
 The following is the visualization of our final map, produced through leaflet in QGIS, in which the water and subwards can be visualized together and separately.
 
 [Leaflet Map of Flooding Density in Dar es Salaam](dsmap/index.html)
+
+
+[Return to homepage](pdickson.github.io)

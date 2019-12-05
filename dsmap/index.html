@@ -52,13 +52,13 @@
         var popupContent = '<table>\
   
    <tr>\
-     <td colspan="2">' + (feature.properties['subward'] !== null ? Autolinker.link(String(feature.properties['subward'])) : '') + '</td>\
+     <td colspan="2">' + 'Subward' + (feature.properties['subward'] !== null ? Autolinker.link(String(feature.properties['subward'])) : '') + '</td>\
    </tr>\
    <tr>\
-     <td colspan="2">' + (feature.properties['floods'] !== null ? Autolinker.link(String(feature.properties['floods'])) : '') + '</td>\
+     <td colspan="2">' + 'Flooded Buildings' + (feature.properties['floods'] !== null ? Autolinker.link(String(feature.properties['floods'])) : '') + '</td>\
    </tr>\
    <tr>\
-     <td colspan="2">' + (feature.properties['buildcnt'] !== null ? Autolinker.link(String(feature.properties['buildcnt'])) : '') + '</td>\
+     <td colspan="2">' + 'Total Buildings' + (feature.properties['buildcnt'] !== null ? Autolinker.link(String(feature.properties['buildcnt'])) : '') + '</td>\
    </tr>\
    <tr>\
      <td colspan="2">' + 'Percent of buildings flooded: ' + (feature.properties['pctflood'] !== null ? Autolinker.link(String(feature.properties['pctflood'])) : '') + '</td>\

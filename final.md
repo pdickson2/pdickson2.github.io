@@ -1,3 +1,4 @@
+## Final Project
 
 For my final project in this class, I chose to continue looking at the lab we conducted in the seventh and eight weeks of our class, which can be viewed [here](malawi.md).  The initial lab attempted to recreate work conducted by Malcomb et al. in 2014, linked [here]()()()().  The paper examines social vulnerability in Malawi as a lens for possible future reseach into the topic. I looked at the uncertainty of one of the initial sources of data for the lab, the locations of the DHS Survey points.  
 

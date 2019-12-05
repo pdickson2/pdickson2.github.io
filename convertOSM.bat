@@ -1,6 +1,6 @@
 :: command to import smallmap.osm into testDSM postgis database on artemis, by Joseph Holler
 
-K:\gg323\osm2pgsql\osm2pgsql -H 140.233.36.33 -P 5432 -d tiansheng -U tiansheng -S dsm.style -W -l -v -x K:\gg323\dsm_osm.osm
+K:\gg323\osm2pgsql\osm2pgsql -H 140.233.36.33 -P 5432 -d paige -U paige -S dsm.style -W -l -v -x K:\gg323\dsm_osm.osm
 
 pause
 

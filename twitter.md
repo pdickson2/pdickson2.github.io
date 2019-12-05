@@ -8,4 +8,4 @@ First, we found articles relating to spatial twitter data and analyzed them for 
 
 The next week, we conducted an analysis on the spatial presence of tweets during Hurricane Dorian and their content.
 
-[Dorian Analysis](dorian.md)
+[Hurricane Dorian Analysis](dorian.md)

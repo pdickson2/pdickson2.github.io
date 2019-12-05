@@ -6,17 +6,28 @@ Below, find the SQL that was utilized for this lab, in which we found the percen
 
 Here is a basic overview of the steps conducted with the SQL code:
   1. Select buildings and water layers
-    a. Select buildings from OSM 
-    b. Select water Resilience Academy
-  2. Convert buildings to points
-  3. Check buildings' flood status
+   
+   a. Select buildings from OSM 
+   
+   b. Select water Resilience Academy
+ 
+ 2. Convert buildings to points
+
+3. Check buildings' flood status
+    
     a. Add a column to the buildings for flooding
-    b. Populate the column with an intersection with the water
+   
+   b. Populate the column with an intersection with the water
   4. Calculate the percentage of flooded buildings by subward
-    a. Create a table of subwards with a column for the count of flooded buildings
-    b. Intersect buildings with subwards
-    c. Count the buildings flooded by subward and add that data to the new column
-    d. Count the buildings in each subward
+   
+   a. Create a table of subwards with a column for the count of flooded buildings
+   
+   b. Intersect buildings with subwards
+   
+   c. Count the buildings flooded by subward and add that data to the new column
+   
+   d. Count the buildings in each subward
+    
     e. Add a column for the percentage of flooded buildings in each subward and populate it
   
 [SQL Dar es Salaam](lab6.sql)

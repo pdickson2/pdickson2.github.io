@@ -18,7 +18,8 @@ Pictured below are the maps which we created with the data available to us as a 
 ADD MAPS, MODEL PICTURE, AND MODEL
 
 Cumulatively, this effort focused a lot on reproducibility and replicability in open source geography.  Generally defined in geography as the ability to recreate the same results with the same data and the ability to recreate similar results with similar data and methodology respectively, these two issues are especially prevalent in this particular exercise.  
- 
+
+For a further look into the uncertainty of this data, check out my [final project](final.md) for this class, where I examined the potential inaccuracies of the DHS survey points.  
 
 Software Used: QGIS 3.8.1 with Grass, PostGIS
 

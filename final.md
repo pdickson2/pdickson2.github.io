@@ -1,2 +1,4 @@
 
-For my final project in this class, I chose to 
+For my final project in this class, I chose to continue looking at the lab we conducted in the seventh and eight weeks of our class, which can be viewed [here](malawi.md).  I looked at the uncertainty of one of the initial sources of data for the lab, the locations of the DHS Survey points.  
+
+In an attempt to protect privacy of survey takers, the DHS Survey points were randomized up to 2km for those located in urban areas and up to 5km for those located in rural areas.  While this randomization did not cross over official district boundaries, the scale at which the analysis was conducted, it is highly probable that they cross over traditional authority boundaries, a common means of visualization.  Therefore, the final conclusions that could be drawn by this work are at grave risk of innacuracy because of this dispersion.  

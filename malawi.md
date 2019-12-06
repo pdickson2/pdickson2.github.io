@@ -14,8 +14,13 @@ An additional issue with attempting to create the maps below is that Malcomb et 
 
 ![map3](malawi1.PNG)
 
-Pictured below are the maps which we created with the data available to us as a class.   We altered a model, also linked below, to create these maps from the provided geometries and rasterized the variables we were able to analyze.  The model uses the vulnerability score, compiles using this [SQL](vulnerability.sql) script which we compiled as a class.  From there, the model rasterizes the vulnerability scores and normalizes and clips the flood and drought risks, the other half of the analysis which we were able to complete.  Together, this produced maps that represent about 80% of what Malcomb et al. initially produced.
+Pictured below are the maps which we created with the data available to us as a class.   We altered a model, also linked below, to create these maps from the provided geometries and rasterized the variables we were able to analyze.  The model uses the vulnerability score, compiled using this [SQL](vulnerability.sql) script which we compiled as a class.  From there, the model rasterizes the vulnerability scores and normalizes and clips the flood and drought risks, the other half of the analysis which we were able to complete.  Together, this produced maps that represent about 80% of what Malcomb et al. initially produced.
 
+This is a picture of the model created, which is linked [here](
+
+The first map we made was a map of household adaptive capacity by Traditional Authority.
+
+The second map we created was a grid of vulnerability, which is easily compared to the maps produced by Malcomb et al.
 
 ADD MAPS, MODEL PICTURE, AND MODEL
 

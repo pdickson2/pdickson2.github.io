@@ -8,8 +8,6 @@ The paper attempts to map social vulnerability across different scales in Malawi
 
 An additional issue with attempting to create the maps below is that Malcomb et at state that they divided the adaptive capacity scores into quintiles for their analysis, but fail to describe how they handled data with null features, if they were factored in or simply discarded, in addition to lacking an explanation of how binary figures were separated.  However, the maps which we attempted to recreate are below.
 
-![map1](malawi3.PNG)
-
 ![map2](malawi2.PNG)
 
 ![map3](malawi1.PNG)

@@ -31,6 +31,9 @@ Once the model has created all of the desired rasters, there are a few more impo
 
 ![map3](malawi1.PNG)
 
+![map](d.png)
+
+
 ## Vulnerability Discussion
 Again, there are significant variations between our map of vulnerability and Malcomb et al's map of the same image.  Again, clear explanation for this is that we lack 20% of the data they utilized, a clear issue for reproducibility.  An additional issue is that we aren't entirely sure we used the correct drought and flood layers for our calculations.  They use different names to refer to their choice of layer, which is inconsistent with their data citation, again creating uncertainty as an observer.  
 

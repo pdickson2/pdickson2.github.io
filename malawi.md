@@ -1,5 +1,3 @@
-add model, finish discussions of repoducibility inc tate
-
 # Malawi Lab
 
 In the seventh and eighth weeks of class, we examined replicability and reproducibility in scientific publications by looking at work by Malcomb, Weaver, and Krakowka in 2014 and their work on assessing vulnerability in Malawi.  The article can be found [here](https://reader.elsevier.com/reader/sd/pii/S0143622814000058?token=078A0ACAE18D01995A67473D93E5DC36A07C5779021CF903B8334CF1D7C8EAD9277467C394E80035D5AD73BF0FD401F0) for further context. 
@@ -27,7 +25,9 @@ The second map we attempted to recreate for this analysis was the final map crea
 
 In order to create the cumulative maps of vulnerability, we created a [model](mowdel.model3) in QGIS which combined to form the 80% of the vulnerability studied by Malcomb et al.  The model has a few key steps, first, it transforms the adaptive capacity score above to a raster, so it can be aggreated with the other available rasters.  Second, it combines the draught and flood layers to be consistent with the outline of Malawi, as they were not both available at the national level.  Third, since the raster are available in different sizes, the model warps the rasters to have the same size of cell, which can be adjusted by the user at the outset.  
 
-Once the model has created all of the desired rasters, there are a few more important steps to produce the final output grid.  First, the drought and flood clips need to be transformed into quintiles.  The flood clip is easy, since it already is in quintiles, it can be managed in the raster calculator.  However, the drought clip needs to first be divided into quintiles with the r.Quantile function in QGIS with grass, then reclassified using r.Recode to create this separation.  The classifications   Now that they have been properly separated, the raster calculator can be used to create the 80% of the map we have access to.  
+Once the model has created all of the desired rasters, there are a few more important steps to produce the final output grid.  First, the drought and flood clips need to be transformed into quintiles.  The flood clip is easy, since it already is in quintiles, it can be managed in the raster calculator.  However, the drought clip needs to first be divided into quintiles with the r.Quantile function in QGIS with grass, then reclassified using r.Recode to create this separation.  The classifications created by the quantile function need to be saved as a .txt file, which can be uploaded into the recode function.  Now that they have been properly separated, the raster calculator can be used to create the 80% of the map we have access to. The following is the formula used to calculate vulnerability, to the best of our estimates.
+
+
 
 ![map3](malawi1.PNG)
 

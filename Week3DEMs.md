@@ -30,15 +30,16 @@ Finally, we visualized the channel network of water flow in the area around Kili
 The ultimate image is the ultimate visualization of the flow of streams and rivers as would be estimated by elevation data from Mt Kilimanjaro.
 
 
-In our fourth week, we updated this process to automate the production of channel networks using a batch script, which can be found [here](BatchAst.bat) for aster data and [here](BatchSRTM.bat) for SRTM data.  This modelling was performed on both ASTER and SRTM data, both of which come with their own sets of uncertainty.  Pictured below are the results of both of these analyses and the difference between them visualized.  The data again came from [NASA Earthdata](https://earthdata.nasa.gov/), this time using both the [Aster](https://doi.org/10.5067/ASTER/ASTGTM.003) and [SRTM](https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003) data for Mt. Kilimanjaro, though these scripts can be applied to any elevation data.  This particular batch script utilzed SAGA 6.2 but could be altered for different versions and systems.  The process of creating the batch script was relatively simple, the same steps from above were simply automated to create the channels of water flow around Kilimanjaro.  
+In our fourth week, we updated this process to automate the production of channel networks using a batch script, which can be found [here](BatchAst.bat) for aster data and [here](BatchSRTM.bat) for SRTM data.  This modelling was performed on both ASTER and SRTM data, both of which come with their own sets of uncertainty.  The section needed for the studied area of Mt. Kilimanjaro are S03E037 and S04E037.  Pictured below are the results of both of these analyses and the difference between them visualized.  The data again came from [NASA Earthdata](https://earthdata.nasa.gov/), this time using both the [Aster](https://doi.org/10.5067/ASTER/ASTGTM.003) and [SRTM](https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003) data for Mt. Kilimanjaro, though these scripts can be applied to any elevation data.  This particular batch script utilzed SAGA 6.2 but could be altered for different versions and systems.  The process of creating the batch script was relatively simple, the same steps from above were simply automated to create the channels of water flow around Kilimanjaro.  
 
 The batch script uses the following tools in SAGA.
-  1. Mosaicking
-  2. UTM Projection
-  3. Sink Drainage Routes
-  4. Sink Removal
-  5. Flow Accumulation (top-down)
-  6. Channel Networks
+  1. Analytical Hillshading
+  2. Mosaicking
+  3. UTM Projection
+  4. Sink Drainage Routes
+  5. Sink Removal
+  6. Flow Accumulation (top-down)
+  7. Channel Networks
 
 The image below illustrates discrepancies in the recorded elevations of the Aster and SRTM data, owing to their different methods of collection.  Higher Aster Data is represented in blue whereas higher SRTM data is represented in red.
 

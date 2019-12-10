@@ -27,7 +27,7 @@ In order to create the cumulative maps of vulnerability, we created a [model](mo
 
 Once the model has created all of the desired rasters, there are a few more important steps to produce the final output grid.  First, the drought and flood clips need to be transformed into quintiles.  The flood clip is easy, since it already is in quintiles, it can be managed in the raster calculator.  However, the drought clip needs to first be divided into quintiles with the r.Quantile function in QGIS with grass, then reclassified using r.Recode to create this separation.  The classifications created by the quantile function need to be saved as a .txt file, which can be uploaded into the recode function.  Now that they have been properly separated, the raster calculator can be used to create the 80% of the map we have access to. The following is the formula used to calculate vulnerability, to the best of our estimates.
 
-
+("Recoded@1" * 0.2) + (("floodClip@1" + 1 ) * 0.2) + (( 2 - "capacityGrid@1") * 0.4) 
 
 ![map3](malawi1.PNG)
 

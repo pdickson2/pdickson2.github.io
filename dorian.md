@@ -21,6 +21,8 @@ After completing our work in RStudio, we transitioned to the PostGIS function in
 
 Then, in QGIS we created a kernel density map of twitter activity.  First we changed all of the counties in our study region to points by finding their centroids so the map could be produced.  We calculated the kernel density with QGIS with a radius of 100 km, to allow for slight overlap, pizel size of 500 m, and the map weighted by the tweet rate column calculated using the script above.  This created the map below, with a relatively smooth image of kernel density.
 
+![kernel](kernel.png)
+
 ### GeoDa
 Following this, we conducted other spatial analyses in GeoDa.  By connecting with our PostGIS database, we were able to create a spatial weights matrix, separated by geoid for each county, based on the twitter data we created in QGIS.  Then we calculated the G* cluster map, using our calculated tweet rate as the variable.  Below, you can see the spatial analysis for both the ordinary tweet rate and the normalized tweet rates.
 

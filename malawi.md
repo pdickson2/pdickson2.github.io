@@ -25,12 +25,14 @@ Clearly, these maps are not identical, though they do share general trends of si
 
 The second map we attempted to recreate for this analysis was the final map created by Malcomb et al.  This was the cumulative map of vulnerability which compiled the three main areas of vulnerability.  The first, adaptive capacity, was discussed above.  The second, physical exposure, was compiled from flood risk and drought exposure in Malawi.  And the final, livelihood sensitivity, unfortunately remained unavailable to us from FEWSnet.
 
-In order to create the cumulative maps of vulnerability, we created a [model](_)()) in QGIS which combined to form the 80% of the vulnerability studied by Malcomb et al.  The model has a few key steps, first, it transforms the adaptive capacity score above to a raster, so it can be aggreated with the other available rasters.  Second, it combines the draught and flood layers to be consistent with the outline of Malawi, as they were not both available at the national level.  Third, since the raster are available in different sizes, the model warps the rasters to have the same size of cell, which can be adjusted by the user at the outset.  
+In order to create the cumulative maps of vulnerability, we created a [model](mowdel.model3) in QGIS which combined to form the 80% of the vulnerability studied by Malcomb et al.  The model has a few key steps, first, it transforms the adaptive capacity score above to a raster, so it can be aggreated with the other available rasters.  Second, it combines the draught and flood layers to be consistent with the outline of Malawi, as they were not both available at the national level.  Third, since the raster are available in different sizes, the model warps the rasters to have the same size of cell, which can be adjusted by the user at the outset.  
+
+Once the model has created all of the desired rasters, there are a few more important steps to produce the final output grid.  First, the drought and flood clips need to be transformed into quintiles.  The flood clip is easy, since it already is in quintiles, it can be managed in the raster calculator.  However, the drought clip needs to first be divided into quintiles with the r.Quantile function in QGIS with grass, then reclassified using r.Recode to create this separation.  The classifications   Now that they have been properly separated, the raster calculator can be used to create the 80% of the map we have access to.  
 
 ![map3](malawi1.PNG)
 
 ## Vulnerability Discussion
-Again, there are significant 
+Again, there are significant variations between our map of vulnerability and Malcomb et al's map of the same image.  Again, clear explanation for this is that we lack 20% of the data they utilized, a clear issue for reproducibility.  An additional issue is that we aren't entirely sure we used the correct drought and flood layers for our calculations.  They use different names to refer to their choice of layer, which is inconsistent with their data citation, again creating uncertainty as an observer.  
 
 # Replicability and Reproducibility
 

@@ -35,7 +35,7 @@ Once the model has created all of the desired rasters, there are a few more impo
 
 
 ## Vulnerability Discussion
-Again, there are significant variations between our map of vulnerability and Malcomb et al's map of the same image.  Again, clear explanation for this is that we lack 20% of the data they utilized, a clear issue for reproducibility.  An additional issue is that we aren't entirely sure we used the correct drought and flood layers for our calculations.  They use different names to refer to their choice of layer, which is inconsistent with their data citation, again creating uncertainty as an observer.  
+Again, there are significant variations between our map of vulnerability and Malcomb et al's map of the same image.  Again, clear explanation for this is that we lack 20% of the data they utilized, a clear issue for reproducibility.  An additional issue is that we aren't entirely sure we used the correct drought and flood layers for our calculations.  They use different names to refer to their choice of layer, which is inconsistent with their data citation, again creating uncertainty as an observer.  Additionally, the output raster we created to match that of Malcomb is of a finer size than some of the data available, meaning that there inherently will be differences in the results presented and the local situation.  
 
 # Replicability and Reproducibility
 
@@ -45,8 +45,6 @@ Cumulatively, this effort focused a lot on reproducibility and replicability in 
 
 
 Software Used: QGIS 3.8.1 with Grass, PostGIS
-
-Additional Data Sources: 
 
 [Return to Home Page](pdickson2.github.io)
 

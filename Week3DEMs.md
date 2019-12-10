@@ -46,7 +46,7 @@ The image below illustrates discrepancies in the recorded elevations of the Aste
 
 Below are three-dimensional models of the elevations with their channel networks visualized.  The first is for Aster and the second for SRTM.
 
-![3DAst(3dast.PNG)
+![3DAst](3dast.PNG)
 
 ![3Dsrtm](3dsrtm.PNG)
 

@@ -25,7 +25,7 @@ The first plot relates distance from the city center and median gross rent in Mi
 [Scatterplot of Distance and Rent](distanceplotnew.html)
 
 The second plot relates direction from the city center and hispanic/latinx population in Milwaukee by census tract.
-[Polar Plot Direction and Hispanic Ethnicity](directionplooot.html)
+[Polar Plot Direction and Hispanic Ethnicity](dirplo.html)
 
 This exercise draws up the question of GIS and its divergent perceptions as a tool and a science.  While GIS seems to be a tool for reaching final conclusions, the function of models and quantitative results necessitate the discussion of GIS as a science.  Largely, this debate stems from the variety of definitions of 'science' itself and calls into question the immense value society places on the sciences [(Wright, Goodchild, & Proctor, 1997)](https://doi.org/10.1111/0004-5608.872057).  The question comes down to whether one believes the goal of science is strictly defined as proving truths or more widely serves as a function for testing theories and analyzing data, or if it lies somewhere in between. This exercise draws conclusions in a seemingly scientific manner with concrete results, yet without the fundamental theories behind interpreting geographic data remains inconsequential.  Without and understanding of theories of urban development and how demographic factors impact one's life, the data supplied by this model would remain numbers.  Therefore, GIS is a scientific tool, but a tool nonetheless, for discovering patterns of spatial analysis that can then be interpreted with theories relating to the subject.   
 

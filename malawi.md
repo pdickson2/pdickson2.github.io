@@ -17,7 +17,7 @@ The basic steps of this work include combining the different sources of data to 
 
 ## Resilience Discussion
 
-Clearly, these maps are not identical, though they do share general trends of similarity throughout.  There are many potential reasons for the discrepancies present in this lab.  One of the most important reasons, as discussed above, is due to our uncertainty in the creation of the quintiles themselves and how they were measured.  Without an understanding of how specifically the authors classified each of the points, a concrete workflow cannot be created which mirrors the original. Another possible issue for this analysis is the lack of certainty with the DHS surveys themselves.  One major factor is that these individual level surveys have innate error with either lack of reporting or incorrect reporting.  Another important factor is the lack of geographical certainty, which I examined [here](final.md) in my final project for the class.  
+Clearly, these maps are not identical, though they do share general trends of similarity throughout.  There are many potential reasons for the discrepancies present in this lab.  One of the most important reasons, as discussed above, is due to our uncertainty in the creation of the quintiles themselves and how they were measured.  Without an understanding of how specifically the authors classified each of the points, a concrete workflow cannot be created which mirrors the original. Another possible issue for this analysis is the lack of certainty with the DHS surveys themselves.  One major factor is that these individual level surveys have innate error with either lack of reporting or incorrect reporting.  Another important factor is the lack of geographical certainty, which I examined [here](final.md) in my final project for the class.  But an overview of the issue is that the DHS Survey data was designed to be looked at on the district data, rather than as traditional authorities, leading to overall uncertainty in their results.  
 
 ## Vulnerability Methodology
 
@@ -39,7 +39,9 @@ Again, there are significant variations between our map of vulnerability and Mal
 
 # Replicability and Reproducibility
 
-Cumulatively, this effort focused a lot on reproducibility and replicability in open source geography.  Generally defined in geography as the ability to recreate the same results with the same data and the ability to recreate similar results with similar data and methodology respectively, these two issues are especially prevalent in this particular exercise.  
+Cumulatively, this effort focused a lot on reproducibility and replicability in open source geography.  Generally defined in geography as the ability to recreate the same results with the same data and the ability to recreate similar results with similar data and methodology respectively, these two issues are especially prevalent in this particular exercise.  As already discussed throughout this page, there are a variety of factors that can account for the discrepancies between our analysis and that conducted by Malcomb et al.
+
+Broadly speaking, there is a lot of room for growth in reproducibility and replicability in academic publications.  
 
 # Vulnerability Analysis
 

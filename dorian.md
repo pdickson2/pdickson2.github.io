@@ -24,7 +24,7 @@ Then, in QGIS we created a kernel density map of twitter activity.  First we cha
 ![kernel](kernel.png)
 
 ### GeoDa
-Following this, we conducted other spatial analyses in GeoDa.  By connecting with our PostGIS database, we were able to create a spatial weights matrix, separated by geoid for each county, based on the twitter data we created in QGIS.  Then we calculated the G* cluster map, using our calculated tweet rate as the variable.  Below, you can see the spatial analysis for both the ordinary tweet rate and the normalized tweet rates.
+Following this, we conducted other spatial analyses in GeoDa.  By connecting with our PostGIS database, we were able to create a spatial weights matrix from the tools menu, weighted by geoid for each county, based on the twitter data we created in QGIS. Then we produced the G* cluster map, first using our calculated tweet rate as the variable and second using the normalized rate, as the variable.  All factors - the significance map, the cluster map, and row-standardized wights - were included.  This calculation conducts the Getis-Ord Gi* statistical analysis: an explanation of which can be found [here](https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html).  Essentially, it creates a map of high and low rates of the entered variable.  Below, you can see the spatial analysis for both the ordinary tweet rate and the normalized tweet rates.
 
 ## Discussion
 Cumulatively, the results of this lab demonstrate that sharpiegate did have a somewhat noticeable effect on the subjects about which people tweeted during 

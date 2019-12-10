@@ -22,7 +22,7 @@ Week 7-8: Malawi Replicability and Reproducibility
 
 [Malawi Lab](malawi.md)
 
-Week 9-10: Twitter Data and Spatial Analysis
+Week 9-10: Big Data and Twitter
 
 [Twitter Review and Work](twitter.md)
 

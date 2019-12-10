@@ -8,7 +8,7 @@ The first step in conducting this analysis was to gather the necessary data from
 
 
 
-After completing our work in RStudio, we transitioned to the PostGIS function in QGIS.  The SQL script for work conducted in the PostGIS database can be found [here](_)).  While the step by step is included in the script, generally speaking, it strove to integrate the twitter data into the county to which it would belong.  Then, we counted the tweets in each county in order to calculate the density of tweets per county and calculated the normalized tweets per county to create a different framework for analysis.
+After completing our work in RStudio, we transitioned to the PostGIS function in QGIS.  The SQL script for work conducted in the PostGIS database can be found [here](lab10sql.sql).  While the step by step is included in the script, generally speaking, it strove to integrate the twitter data into the county to which it would belong.  Then, we counted the tweets in each county in order to calculate the density of tweets per county and calculated the normalized tweets per county to create a different framework for analysis.
 
 Then, in QGIS we created a kernel density map of twitter activity.  First we changed all of the counties in our study region to centroids so the map could be produced.  We calculated the kernel density with QGIS with a radius of 100 km, to allow for slight overlap, pizel size of 500 m, and the map weighted by the tweet rate column calculated using the script above.  This created the map below, with a relatively smooth image of kernel density.
 

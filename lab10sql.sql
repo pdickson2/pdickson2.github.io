@@ -70,7 +70,7 @@ UPDATE counties
 SET dnorm = (dcount / (pop/10000)) * 1.0
 
 --Create a new comlumn for the counties which calculates the normalized tweet difference index 
-ALTER TABLE counties ADD COLUMN ndti integer 
+ALTER TABLE counties ADD COLUMN ndti real; 
 UPDATE counties
 SET ndti = 0;
 UPDATE counties

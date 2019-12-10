@@ -4,9 +4,9 @@ We conducted analysis in RStudio which then allowed us to statistically analyze 
 
 The first step in conducting this analysis was to gather the necessary data from twitter.  This was conducted in RStudio, with the script provided [here](dorianTwitterScript.R) by Professor Holler to get the data for general November tweets and those relating to Dorian.  With the necessary tweets acquired, we began to look at the common language and word associations of the tweets, which can be found [here]()()(). This script also downloaded county level census data for the entire United States, which we used for statistical analysis in out PostGIS databases.  Below, are the two visualizations of language created by the script.
 
+![words](dorianwords.png)
 
-
-
+![network](networktweets.png)
 
 After completing our work in RStudio, we transitioned to the PostGIS function in QGIS.  The SQL script for work conducted in the PostGIS database can be found [here](lab10sql.sql).  While the step by step is included in the script, generally speaking, it strove to integrate the twitter data into the county to which it would belong.  Then, we counted the tweets in each county in order to calculate the density of tweets per county and calculated the normalized tweets per county to create a different framework for analysis.
 

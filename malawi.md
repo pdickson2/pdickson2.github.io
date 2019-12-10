@@ -12,17 +12,16 @@ The paper attempts to map social vulnerability across different scales in Malawi
 
 Our sources for this exercise were DHS survey data, which filled in the adaptive capacity scores, and physical exposure data from UNEP Global Risk Map.  However, this only accounts for 80% of the data collected for this analysis as the livelihood sensitivity data from FEWSnet was unavailable to us.  Additionally, Professor Holler had to apply and receive special access to this data, so it cannot be freely redistributed. In addition to the inability to collect all of the adequate data to conduct a similar analysis, this article also didn't specify the specific data taken from the surveys and risk map to calculate vulnerability.  The authors of the work likely utilized personal connections to collect the DHS data, leaving the exact data unclear to us as outsiders.
 
-## Methodology
-
+## Resilience Methodology
 The basic steps of this work include combining the different sources of data to create an aggregate raster which demonstrates vulnerability across the country of Malawi.  The first step we undertook in order to accomplish this was to create a score of resilience for each of the traditional authorities.  This data came from the DHS Surveys and combined the 12 features shown in the image above.  Malcomb et al. created their measurement of adaptive capacity by dividing the individual factors of the aggregation into quintiles.  However, they did not specify how they handled points with null values or how they chose to separate answers that functioned binarily.  As a class, we created the following [SQL Script](vulnerability.sql) in which we divided the individual categories into quintiles where applicable and two groups where applicable.  The factors were ranked from 1-5 based on how we judged the trait to increase or decrease vulnerability.  Below, is a comparison of our final map of resilience based on our calculations versus the initial produced by Malcomb. 
 
 ![map2](malawi2.PNG) ![resilience](resilience.PNG)
 
-# Resilience Discussion
+## Resilience Discussion
 
 Clearly, these maps are not identical, though they do share general trends of similarity throughout.  There are many potential reasons for the discrepancies present in this lab.  One of the most important reasons, as discussed above, is due to our uncertainty in the creation of the quintiles themselves and how they were measured.  Without an understanding of how specifically the authors classified each of the points, a concrete workflow cannot be created which mirrors the original. Another possible issue for this analysis is the lack of certainty with the DHS surveys themselves.  One major factor is that these individual level surveys have innate error with either lack of reporting or incorrect reporting.  Another important factor is the lack of geographical certainty, which I examined [here](final.md) in my final project for the class.  
 
-# Vulnerability 
+## Vulnerability Methodology
 
 The second map we attempted to recreate for this analysis was the final map created by Malcomb et al.  This was the cumulative map of vulnerability which compiled the three main areas of vulnerability.  The first, adaptive capacity, was discussed above.  The second, physical exposure, was compiled from flood risk and drought exposure in Malawi.  And the final, livelihood sensitivity, unfortunately remained unavailable to us from FEWSnet.
 
@@ -30,9 +29,13 @@ In order to create the cumulative maps of vulnerability, we created a [model](_)
 
 ![map3](malawi1.PNG)
 
+## Vulnerability Discussion
+
 # Replicability and Reproducibility
 
 Cumulatively, this effort focused a lot on reproducibility and replicability in open source geography.  Generally defined in geography as the ability to recreate the same results with the same data and the ability to recreate similar results with similar data and methodology respectively, these two issues are especially prevalent in this particular exercise.  
+
+# Vulnerability Analysis
 
 
 Software Used: QGIS 3.8.1 with Grass, PostGIS

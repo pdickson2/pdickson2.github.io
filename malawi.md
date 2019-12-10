@@ -30,6 +30,7 @@ In order to create the cumulative maps of vulnerability, we created a [model](_)
 ![map3](malawi1.PNG)
 
 ## Vulnerability Discussion
+Again, there are significant 
 
 # Replicability and Reproducibility
 

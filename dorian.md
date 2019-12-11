@@ -29,11 +29,13 @@ Following this, we conducted other spatial analyses in GeoDa.  By connecting wit
 ![dnorm](countiesnormGetisOrdMapFrame.png)
 This is the map of the Hotspots of the tweet rate by county.
 
+## Interpretation
+Cumulatively, the results of this lab demonstrate that sharpiegate did have a somewhat noticeable effect on the subjects about which people tweeted during the study period.  Our initial study of the major content words of tweets which related directly to Hurricane Dorian demonstrated that many of them were in the broader context of sharpiegate, with the state in question, Alabama, the word sharpiegate, and multiple topics relating to Donald Trump appearing prominantly among these tweets.  However, these tweets do not appear to have the spatial correlation with regions that were exaggerated by President Trump, as seen in the maps of kernel density and tweet rate.  There were certain regions which were more likely to tweet about the hurricane than others, but they were generally those actually affected by the hurricane itself, rather than those predicted to do so.
+
 ## Discussion
-Cumulatively, the results of this lab demonstrate that sharpiegate did have a somewhat noticeable effect on the subjects about which people tweeted during the study period.  
+This analysis brings up many questions of the study of big data in the context of twitter data relating Hurricane Dorian and sharpiegate.
 
-
-Sources: 
+Additionally, while publishing twitter data violates twitter's code of agreement, the ids of the tweets studied can be found [here](dorianTweetIDs.csv), for rehydration.
 
 Software: QGIS 3.8.1, RStudio, GeoDa, PostGIS
 

@@ -30,7 +30,7 @@ Following this, we conducted other spatial analyses in GeoDa.  By connecting wit
 This is the map of the Hotspots of the tweet rate by county.
 
 ## Discussion
-Cumulatively, the results of this lab demonstrate that sharpiegate did have a somewhat noticeable effect on the subjects about which people tweeted during 
+Cumulatively, the results of this lab demonstrate that sharpiegate did have a somewhat noticeable effect on the subjects about which people tweeted during the study period.  
 
 
 Sources: 

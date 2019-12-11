@@ -4,6 +4,8 @@ States.  However, President Trump stirred up much controversy that week online w
 
 ![dorianpic](sharpiegate.png)
 
+![realdorian](dorian.png)
+
 We conducted analysis in RStudio which then allowed us to analyze the presence of tweets on Dorian specifically versus general twitter activity and to get of sense of the content of these tweets.  Following the gathering and initial analysis of data in R, we transitioned to QGIS to conduct statistical analysis on the data gathered initially.  Finally we picture these statistical results in GeoDa, which allows a final visualization of the effect (or lack of) which 'sharpiegate' had on tweets conducted during this period.
 
 ## Methodology 

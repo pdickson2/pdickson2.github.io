@@ -55,11 +55,14 @@ Finally, below is an image of the difference between the flow accumulations of t
 
 ![flowdif](flowdif.png)   ![fdlegend](flowdif_legend.png)
 
-However, owing to the small size of these data, here is a zoomed in image near the summit of Kilimanjaro.
+Now, pictured below you can see this difference map zoomed in near a lake south of the mountain.  This region, which was also notable above for intriguing lines, demonstrates the relative difference between the two sources. 
 
-![zoomedkili](zoomin.PNG)
+![lake](woot.png)
+![lakelegend](woot_legend.png)
 
-The above image demonstrates the relative trend of the error towards the side of SRTM, as red seemingly occurs with more frequency than blue, suggesting that the errors would trend more toward SRTM.  Therefore, I would suggest that Aster is the more reliable source of data, as there were fewer erros visualized.  However, I would caution that this would not necessarily remain true across all data sets, depending on their succeptibility to cloud cover.   
+This specific image demonstrates one challenge of using these data, that flat surfaces cannot be adequately accounted for by either of the sources.  There is a lack of consistency between these 
+
+The above image demonstrates the relative trend of the error towards the side of SRTM, as red seemingly occurs with more frequency than blue, suggesting that the errors would trend more toward SRTM.  Therefore, I would caution a suggestion that Aster is the more reliable source of data, as there were fewer erros visualized.  However, I would caution that this would not necessarily remain true across all data sets, depending on their succeptibility to cloud cover.   
 
 Data Sources: NASA/METI/AIST/Japan Spacesystems, and U.S./Japan ASTER Science Team. ASTER Global Digital Elevation Model V003. 2019, distributed by NASA EODIS Land Processes DAAC.  NASA JPL. NASA Shuttle Radar Topography Mission Global 1 arc second. 2013, distributed by NASA EOSDIS Land Processes DAAC
 

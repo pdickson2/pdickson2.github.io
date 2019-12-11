@@ -1,6 +1,6 @@
 # Open Source GIS GitHub
 
-A compilation of my work in GEOG 323: Open Source GIS at Middlebury College.
+Hi!  My name is Paige Dickson.  This is a compilation of my work in GEOG 323: Open Source GIS at Middlebury College with Joseph Holler.
 
 ### Assignment 1: FOSS4G Review
 

@@ -13,3 +13,5 @@ The data for this specific part of the analysis are the Demographic and Health s
 Firstly, as the buffers' distance was contingent on the urban/rural status of the point.  While this data is included in the initial DHS points, it is represented as a varchar, which made it unable to be selected in SQL.  To rectify this, before entering my database, I created a new urbanrural column which used an integer classification, then set urban = 1 and rural = 2.
 
 Then, I brought my layers into the PostGIS database manager.  I created the following [sql]()() which explained my methodology in finding the likelihood that each point sits within the correct traditional authority.  While each individual step is detailed in the SQL, a basic synopsis of my methodology is as follows.
+
+ - 

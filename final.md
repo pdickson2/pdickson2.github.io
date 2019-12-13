@@ -22,12 +22,17 @@ Then, I brought my layers into the PostGIS database manager.  I created the foll
  - Calculate the are of the buffer in the correct TA
  - Add the areas to the survey points and calculate the chance they are correctly located.
  
- The 
- 
- ![clip](clipped2.png)
- 
 ## Results
-The 
-
-
+The aim of this project was to calculate the likelihood that DHS points taken for Malcomb et al's vulnerability analysis lie within the Traditional Authority of Malawi in which they were represented.  Visualized below are the final buffers which were created for the  
+ 
+![clip](clipped2.png)
+ 
 ![final](final2.png)
+
+## Discussion
+
+
+Academic Sources:
+Data Sources: Demographic and Health Survey, Malawi Spatial Data Platform
+Software Used: QGIS 3.8.1, PostGIS
+

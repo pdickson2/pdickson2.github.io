@@ -21,3 +21,13 @@ Then, I brought my layers into the PostGIS database manager.  I created the foll
  - Find the buffer which sits in the correct Traditional Authority
  - Calculate the are of the buffer in the correct TA
  - Add the areas to the survey points and calculate the chance they are correctly located.
+ 
+ The 
+ 
+ ![clip](clipped2.png)
+ 
+## Results
+The 
+
+
+![final](final2.png)

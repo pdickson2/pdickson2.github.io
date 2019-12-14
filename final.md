@@ -23,14 +23,16 @@ Then, I brought my layers into the PostGIS database manager.  I created the foll
  - Add the areas to the survey points and calculate the chance they are correctly located.
  
 ## Results
-The aim of this project was to calculate the likelihood that DHS points taken for Malcomb et al's vulnerability analysis lie within the Traditional Authority of Malawi in which they were represented.  Visualized below are the final buffers which were created for the  
+The aim of this project was to calculate the likelihood that DHS points taken for Malcomb et al's vulnerability analysis lie within the Traditional Authority of Malawi in which they were represented.  Visualized below are the final buffers which were created for the urban and rural points, with area in water and the incorrect district removed. 
  
 ![clip](clipped2.png)
+ 
+Below, find a map of the inital DHS points rated for the likelihood they lie within the correct Traditional Authority.  Overall, the average chance that the TA was correct was 80.05%, with urban areas having a 75.57% accuracy and rural areas 80.83%.
  
 ![final](final2.png)
 
 ## Discussion
-
+Overall, this project offers insight into an oversight in academic 
 
 Academic Sources:
 Data Sources: Demographic and Health Survey, Malawi Spatial Data Platform

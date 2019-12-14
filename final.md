@@ -32,7 +32,7 @@ Below, find a map of the inital DHS points rated for the likelihood they lie wit
 ![final](final2.png)
 
 ## Discussion
-Overall, this project offers insight into an oversight in academic 
+Overall, this project offers insight into an oversight in a piece of academic literature.  
 
 Academic Sources:
 Data Sources: Demographic and Health Survey, Malawi Spatial Data Platform

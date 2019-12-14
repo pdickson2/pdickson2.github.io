@@ -38,14 +38,15 @@ Additionally, there are some possible errors with my analysis that I haven't dis
 
 Overall, this project offers insight into an unaddressed oversight in a published work of academic literature.  This point brings into question the value of replicability and reproducibility in academic literature overall, as a byproduct of accountability.  As discussed in my first lab looking at Malcomb et al's work in this study, there are many key pieces of information missing from their article which fail to make it reproducible and replicable.  Since those two factors require an understanding of the data and methodology utilized to achieve them, this work fails to achieve either (National Academies of Science, 2019).  Increasingly academic work, especially that which utilizes Open Source platforms, is calling for the standardization of replicability and reproducibility in official publications. I believe that the purpose of academic work should be for others to learn from the examples set by academic publications and this is best served by openness by the research itself being as available as possible.  Therefore accountability should be a fundamental part of academic publications.  
 
-Spatial Analysis as a field of study has grown immensely in the world of Open Source technologies, especially as much of its work is used for public good, rather than just private usage.
+Spatial Analysis as a field of study has grown immensely in the world of Open Source technologies, especially as much of its work can be recreated for other uses with positive results.  Sergio Ray describes the two types of freedom associated with open source spatial analysis - free as in beer and free as in speech, in  which the first allows open analysis of code and the second which makes everything open not only to usage, but also to editting and feedback (Ray, 2009).  In the context of this analysis, free information by Malcomb initially would've made this work relatively unnecessary.  
 
 Academic Sources:
-Committee on Science, Engineering, Medicine, and Public Policy; Policy and Global Affairs; National Academies of Sciences, Engineering, and Medicine National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility and Replicability in Science. Washington, DC: The National Academies Press.
-https://doi.org/10.17226/25303.
+Committee on Science, Engineering, Medicine, and Public Policy; Policy and Global Affairs; National Academies of Sciences, Engineering, and Medicine National Academies of Sciences, Engineering, and Medicine 2019. Reproducibility and Replicability in Science. Washington, DC: The National Academies Press. https://doi.org/10.17226/25303.
 
 Malcomb, D. W., E. A. Weaver, and A. R. Krakowka. 2014. Vulnerability modeling for sub-Saharan Africa: An
 operationalized approach in Malawi. Applied Geography 48:17–30
+
+Rey, S. J. (2009). Show me the code: spatial analysis and open source. Journal of Geographical Systems, 11(2), 191–207. doi: 10.1007/s10109-009-0086-8
 
 Data Sources: Demographic and Health Survey, Malawi Spatial Data Platform
 Software Used: QGIS 3.8.1, PostGIS
